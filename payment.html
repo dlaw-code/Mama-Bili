@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="payment.css">
+    <link rel="stylesheet" type="text/css" href="grid.css">
+    <script src="https://kit.fontawesome.com/f7e6e8a304.js" crossorigin="anonymous"></script>
+    <title>Payment details</title>
+</head>
+<body>
+    <div class="row">
+        <h1>Payment details</h1>
+        <p class="paragraph-1">Complete your purchase by processing your payment details</p>
+    </div>
+    <div class="row">
+        <form action="/payment" method="post" class="payment-form">
+            <div class="row">
+                <div class="col span-1-of-3 boxi">
+                    <label for="email">Email</label>
+                </div>
+                <div class="col span-2-of-3 boxi">
+                        <input type="email" id="email" name="email" placeholder="Your email" required>
+                </div>
+                
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3 boxi">
+                    <label for="card">Card details</label>
+                </div>
+                <div class="col span-2-of-3">
+                    <div class="boxes">
+                        <input type="text" id="card" name="text" placeholder="1234 5678 9879" class="boxes-1" required>
+                        <input type="text" id="card" name="text" placeholder="MM/YY" class="boxes-2" required>
+                        <input type="text" id="card" name="text" placeholder="CVC" class="boxes-3" required>
+                    </div>
+                        
+                </div>
+                
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3 boxi">
+                    <label for="text">Cardholder Name</label>
+                </div>
+                <div class="col span-2-of-3 boxi">
+                        <input type="text" id="text" name="text" placeholder="Adekoya Johnson" required>
+                </div>
+                
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3 boxi">
+                    <label for="">Billing address</label>
+                </div>
+                <div class="col span-2-of-3 boxi">
+                        <select name="" id="">
+                            <option value="lekki" selected>Lekki</option>
+                            <option value="ikoyi">Ikoyi</option>
+                            <option value="agege">Agege</option>
+                            <option value="sango">Sango</option>
+                        </select>
+                </div>
+                
+            </div>
+
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <label for="">&nbsp;</label>
+                </div>
+                <div class="col span-2-of-3">
+                        <div class="box">
+                            <input type="text" id="text" name="text" placeholder="Zip code" class="text-1" required>
+                            <input type="text" id="text" name="text" placeholder="CVC" class="text-1" required>
+                        </div>
+                        
+                </div>
+                
+            </div>
+            
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <label for="">&nbsp;</label>
+                </div>
+                <div class="col span-2-of-3 ">
+                    <h3>Subtotal............................$69.00</h3>
+                    <h3>VAT(20%)............................$13.80</h3>
+                    <h3>Total...............................$82.80</h3>
+                        
+                </div>
+                
+            </div>
+            
+            
+            <div class="row">
+                <input type="submit" value="Pay $82.80">
+                
+            </div>
+
+            <div class="row">
+                <p class="paragraph-2"><i class="fas fa-credit-card"></i>Payments are secure and encrypted</p>
+                
+            </div>
+            
+        </form>
+        
+    </div>
+</body>
+</html>

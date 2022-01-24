@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #fff;
+    color: #000;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    
+}
+
+.row{
+    max-width: 1025px;
+    margin: 0 auto;
+}
+h1,
+p,
+.payment-form{
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+
+input[type = submit],
+select,
+input[type = email],
+input[type = text] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+h1{
+    margin-bottom: 10px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+h3{
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.boxes{
+    display: flex;
+    
+    
+}
+
+.boxes-1{
+    margin-right: 10px;
+    
+}
+
+.boxes-2{
+    
+    text-align: center;
+    margin-right: 10px;
+}
+
+.boxes-3{
+   
+    text-align: center;
+    
+}
+
+
+
+
+
+
+.box{
+    display: flex;
+}
+
+
+
+input[type = submit] {
+    float: right;
+    background-color: #0000ff;
+    padding: 15px 25px;
+    cursor: pointer;
+    color: #fff;
+    margin-top: 15px;
+}
+
+input[type = submit]:hover{
+    background-color: transparent;
+    color: #0000ff;
+    border: 2px solid #0000ff;
+}
+
+.paragraph-2{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.paragraph-1{
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.fa-credit-card{
+    margin-right: 10px;
+}
+
+*:focus{ outline: none; }
+
+@media(max-width: 480px) {
+    .payment-form{
+        width: 80%;
+        
+    }
+
+    h1{
+        font-size: 22px;
+    }
+
+    .paragraph-1{
+        font-size: 14px;
+        
+    }
+
+    input[type = submit],
+    select,
+    input[type = email],
+    input[type = text] {
+        display: block;
+        margin-bottom: 15px;
+    }
+    
+}
+
+@media(max-width: 768px) {
+    .payment-form{
+        width: 80%;
+        
+    }
+    
+}

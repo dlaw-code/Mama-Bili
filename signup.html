@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/signup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/f7e6e8a304.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="images/pork-roast.png" type="image/icon type">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+
+    <title>Signup &mdash; Mama Bili</title>
+</head>
+<body>
+    <header>
+       
+        
+            <div class="login-box">
+                <a href=""><img class="logo" src="images/pork-roast.png" alt="pork-roast"></a>
+                <h1>Sign up with your email</h1>
+                
+                <form method="post" action="/signup" class="signup-form">
+                    <input type = "text" id="name" placeholder="First name" required><br />
+                    <input type = "text" id="name" placeholder="Last name" required><br />
+                    <input type = "email" id="email" placeholder="Email address"><br />
+                    <div class="icon-div">
+                        <input type = "password" id="password" placeholder="Password" class="js--password"><br />
+                        <i class="fas fa-eye-slash" id="eye"></i>
+                    </div>
+                    
+                    <input type = "checkbox" name="terms"checked> I agree to the<a class="links" href=""> Terms of Service</a>  and <a class="links" href="#"> Privacy Policy</a><br />
+                    <input type = "submit" value="Create account" class="btn-create">
+                </form> 
+                <form action="/login" method="post">
+                    <h5>Already have an account?</h5>
+                    <button>Sign in</button>
+                </form>
+                
+            </div>
+
+            
+                
+            </div>
+            
+        </div>
+    </header>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="signup.js"></script>
+</body>
+</html>

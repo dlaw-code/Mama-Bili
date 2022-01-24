@@ -1,0 +1,117 @@
+@media (max-width: 1025px) {
+    .text-box{
+        width: 100%;
+        padding: 0 3%;
+    }
+
+    .row{
+        padding: 0 3%;
+    }
+
+    .icon-small{
+        width: 17px;
+        margin-right: 5px;
+    }
+
+    .plan-box{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .plan-price{ font-size: 250%; }
+
+    .box-3 img{
+        width: 100%;
+        
+    }
+
+    .contact-form{ width: 80%; }
+
+}
+
+
+
+@media (max-width: 768px) {
+    body{ font-size: 16px; }
+    section{ padding: 40px 0; }
+
+    h1{
+        font-size: 250%;
+    }
+    
+    .col{
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+
+    .header-services{
+        font-size: 140%;
+    }
+    .row,
+    .text-box{
+        padding: 0 4%;
+    }
+
+    
+
+    .long-copy{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .plan-price{
+        font-size: 200%;
+    }
+    .main-nav{ display: none; }
+    
+
+    .mobile-nav-icon{ 
+        display: block; 
+        margin-top: 35px;
+    }
+
+    .main-nav{
+        float: left;
+    }
+
+    .main-nav li{
+        display: block;
+        margin-left: 50px;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited{
+        padding: 10px;
+        font-size: 1.5rem;
+        border: 0;
+}
+
+    .header-about{ text-align:center; }
+
+}
+
+@media (max-width: 480px) {
+    body{ font-size: 14px; }
+    section{ padding: 25px 0; }
+    
+
+    .btn-full:link,
+    .btn-full:visited{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+    h1{
+        font-size: 220%;
+    }
+    
+    .contact-form{ width: 100%; }
+
+    .paragraph-long{
+        font-size: 16px;
+    }
+
+    .header-about{ text-align:center; }
+}
+
