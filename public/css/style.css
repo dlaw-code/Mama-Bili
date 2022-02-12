@@ -69,7 +69,7 @@ body{
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #ededed;
+    background-color: #ededed; 
     width: 100%;
     z-index: 9999;
 }
@@ -82,15 +82,11 @@ body{
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited{
     color: #000;
-    font-size: 1.5rem;
+    padding: 8px 0;
 }
 
 .sticky .logo{
-    font-size: 1.2rem;
-    margin-left: 20px;
-    color: #000;
-    font-size: 1.5rem;
-    font-weight: 500;
+    margin-left: 20px;  
 }
 
 .sticky .mobile-nav-icon .fa-bars { color: rgb(70, 66, 66);}

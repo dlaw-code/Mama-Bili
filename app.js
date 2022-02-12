@@ -21,10 +21,7 @@ app.post("/login", function(req,res) {
     res.sendFile(__dirname + "/login.html");
 })
 
-app.post("/forgot", function(req,res) {
-    res.sendFile(__dirname + "/forgot.html")
-})
-
+ 
 
 
 app.post("/",function(req,res) {
@@ -77,6 +74,6 @@ app.post("/failure", function(req, res) {
 
 
 
-app.listen(process.env.PORT || 3000, function(req,res) {
+app.listen(process.env.PORT || 3000, function() {
     console.log("Listening on port 3000");
 })
