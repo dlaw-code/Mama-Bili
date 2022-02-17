@@ -82,11 +82,12 @@ body{
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited{
     color: #000;
-    padding: 8px 0;
+    padding: 10px 0;
 }
 
 .sticky .logo{
-    margin-left: 20px;  
+    margin-left: 20px; 
+    font-size: 1.1rem; 
 }
 
 .sticky .mobile-nav-icon .fa-bars { 
