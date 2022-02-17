@@ -30,10 +30,10 @@ body{
 }
 
 .logo{
+    float: left;
     width: 50px;
     height: auto;
-    text-decoration: none;
-    margin-top: 25px;
+    margin-top: 20px;
 }
 
 
