@@ -80,15 +80,16 @@
 
     .main-nav li{
         display: block;
-        margin-left: 20px;
+        margin-left: 10px;
     }
 
     .main-nav li a:link,
     .main-nav li a:visited{
-        padding: 5px;
+        display: block;
         font-size: 1rem;
+        padding: 10px 0;
         border: 0;
-}
+    }
 
     .header-about{ text-align:center; }
 
