@@ -89,7 +89,11 @@ body{
     margin-left: 20px;  
 }
 
-.sticky .mobile-nav-icon .fa-bars { color: rgb(70, 66, 66);}
+.sticky .mobile-nav-icon .fa-bars { 
+    margin-right: 10px;
+    color: rgb(70, 66, 66);
+
+}
 
 
 .mobile-nav-icon{
